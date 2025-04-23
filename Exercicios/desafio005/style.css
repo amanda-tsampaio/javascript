@@ -19,6 +19,12 @@ section {
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
 }
+
+select#flista {
+  width: 150px;
+  margin-top: 20px;
+}
+
 div {
   text-align: left;
   padding: 8px;

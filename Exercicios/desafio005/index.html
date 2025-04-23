@@ -11,20 +11,13 @@
       <h1>Analisador de Números</h1>
     </header>
     <section>
-      <div id="dados">
-        <p>
-          Número (entre 1 e 100): <input type="number" name="txtn" id="txtn" />
-          <input type="button" value="Adicionar" onclick="adicionar()" />
-        </p>
-      </div>
       <div>
-        <!-- select é para selecionar opções, e tamanho 10 por conta da tabuada -->
-        <select name="tabuada" id="seltab" size="10">
-          <!-- <option value="1">Valor 1</option>
-          <option value="2">Valor 2</option> -->
-        </select>
-        <p><input type="button" value="Finalizar" onclick="finalizar" /></p>
+        Número (entre 1 e 100): <input type="number" name="txtn" id="txtn" />
+        <input type="button" value="Adicionar" onclick="adicionar()" />
+        <br /><select name="flista" id="flista" size="6"></select>
+        <br /><input type="button" value="Finalizar" onclick="finalizar" />
       </div>
+      <div id="res"></div>
     </section>
     <footer>
       <p>&copy; CursoemVídeo</p>
